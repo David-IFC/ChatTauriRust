@@ -1,0 +1,19 @@
+# ===== Rust / Tauri (lo más pesado) =====
+tauri/src-tauri/target/
+tauri/src-tauri/gen/schemas/
+**/target/
+
+# ===== Datos locales =====
+chat-data/*.sqlite
+chat-data/*.sqlite-wal
+chat-data/*.sqlite-shm
+
+# ===== Node (por si acaso) =====
+node_modules/
+
+# ===== Sistema / editores =====
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
